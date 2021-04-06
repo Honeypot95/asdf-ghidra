@@ -1,6 +1,6 @@
 # asdf-ghidra
 
-[Ghidra: A software reverse engineering (SRE) suite of tools](https://developer.amd.com/amd-aocc) plugin for
+[Ghidra: A software reverse engineering (SRE) suite of tools](https://ghidra-sre.org/) plugin for
 asdf version manager
 
 ## Installation
@@ -18,3 +18,5 @@ install & manage versions.
 
 Licensed under the
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+Inspired by https://github.com/asdf-community/asdf-aocc
