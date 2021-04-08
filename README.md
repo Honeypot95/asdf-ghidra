@@ -14,6 +14,10 @@ asdf plugin-add ghidra https://github.com/Honeypot95/asdf-ghidra.git
 Check [asdf](https://github.com/asdf-vm/asdf) readme for instructions on how to
 install & manage versions.
 
+## Travis Build Status
+
+[![Build Status](https://travis-ci.com/Honeypot95/asdf-ghidra.svg?branch=master)](https://travis-ci.com/Honeypot95/asdf-ghidra)
+
 ## License
 
 Licensed under the
