@@ -15,7 +15,7 @@ install_ghidra() {
   if [ "$install_type" != "version" ]; then
     fail "asdf-ghidra supports release installs only"
   fi
-  
+
   local download_url="https://ghidra-sre.org/"$(curl --silent --location https://ghidra-sre.org/releaseNotes_9.2.2.html | grep -Po "ghidra_${version}.*?\.zip" | uniq)
   local file_name="ghidra-${version}.zip"
   local tmp_download_dir
