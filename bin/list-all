@@ -9,7 +9,7 @@ function sort_versions() {
 
 latest_versions=$(
   curl --silent --location https://ghidra-sre.org/releaseNotes_9.2.2.html |
-      grep -Po "ghidra.*?\.zip" | sort | uniq
+      grep -E -o "ghidra.*?\.zip" | sort | uniq
 )
 
 versions=$(
