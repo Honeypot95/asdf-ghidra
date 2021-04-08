@@ -26,7 +26,7 @@ install_ghidra() {
     echo "∗ Downloading Ghidra..."
     curl --silent --location --output "$source_path" -C - "$download_url" || fail "Could not download Ghidra $version source"
     unzip "$source_path" -d "$install_path"
-    cp -R "${install_path}/ghidra_${version}_PUBLIC/"* .
+    cp -R "${install_path}/ghidra_${version}_PUBLIC/"* "${install_path}/"
     rm -R "${install_path}/ghidra_${version}_PUBLIC/"*
     echo "The installation was successful!"
   ) || (
